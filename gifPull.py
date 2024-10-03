@@ -5,6 +5,9 @@ import re
 
 load_dotenv()
 
+# Number of gifs you wish to pull
+number = 100
+
 # Replace with your Giphy API key
 API_KEY = os.getenv('GIPHY_API_KEY')
 
@@ -23,7 +26,7 @@ def fetch_user_gifs(api_key, channel):
     url = f'https://api.giphy.com/v1/channels/{channel}/gifs'
     params = {
         'api_key': api_key,
-        'limit': 1,  # Adjust the limit as needed to retrieve more GIFs per request
+        'limit': number,  # Adjust the limit as needed to retrieve more GIFs per request
     }
 
     while url:

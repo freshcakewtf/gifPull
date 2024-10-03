@@ -1,3 +1,4 @@
 *.env
 *.gif
 devcontainer.json
+*.4
