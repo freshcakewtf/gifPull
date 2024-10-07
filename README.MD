@@ -19,7 +19,7 @@ This Python script allows you to fetch and download GIFs from a specific Giphy c
    pip install requests python-dotenv
 
 ## Giphy API Key
-(You’ll need to obtain an API key from Giphy)[https://developers.giphy.com]
+[You’ll need to obtain an API key from Giphy](https://developers.giphy.com)
 
 ## .env file
 **Create a .env file in the root directory with the following variables**
