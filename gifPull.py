@@ -5,7 +5,7 @@ import re
 
 load_dotenv()
 
-# Number of gifs you wish to pull
+# Number of gifs you wish to pull. Idk  whay but it only works with a max of 100 right now. open to ideas :)
 number = 100
 
 # Replace with your Giphy API key
@@ -90,3 +90,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# You did it you pulled some gifs. You are a level .5 gif wizard now or something.
